@@ -6,7 +6,7 @@ Run the following:
 npm i && npm run build & npm run serve
 ```
 
-Open the browser console, and type the following:
+Open the browser at localhost:8080, then in the console type the following:
 
 ```js
 init_panic_hook();
