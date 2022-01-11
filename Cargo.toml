@@ -1,0 +1,18 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+authors = ["The wasm-bindgen Developers"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2.78"
+serde = { version = "1.0",  features = ['derive'] }
+serde-wasm-bindgen = "0.4.1"
+console_error_panic_hook = "0.1.7"
+
+[dependencies.quick-xml]
+features = ["serialize"]
+version = "0.23.0-alpha3"
